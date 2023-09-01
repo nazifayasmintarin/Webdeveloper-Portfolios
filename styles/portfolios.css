@@ -1,4 +1,39 @@
 /* common shared styles */
 body {
+    font-family:'Lato', sans-serif;
+    font-family:'Open Sans', sans-serif;
+}
+/* nav related styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+
+}
+.nav-title {
+    color:  #181818;
+    font-size: 45px;
+    font-weight: 800;
+   
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+. btn-primary {
     
 }
