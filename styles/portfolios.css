@@ -34,6 +34,15 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -145,4 +154,33 @@ main{
     color:  #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container{
+    display: flex;
+    gap:50px;
+}
+
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+}
+
+.resume-item-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-container{
+    margin: 30px;
+}
+.resume-item-institute{
+    margin-bottom: 2opx;
+    margin-top: 0px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
